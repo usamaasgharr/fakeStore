@@ -1,0 +1,37 @@
+.navbar-scrolled{
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    transition:  300ms;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar-brand{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.brand-color{
+    font-style: oblique;
+}
+
+.nav-item{
+    font-weight: bold;
+}
+
+.primary{
+    color: var(--primary-text-color);
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.dropdown-menu a{
+    text-decoration: none;
+    color: black;
+    
+}

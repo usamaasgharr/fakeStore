@@ -1,0 +1,303 @@
+* {
+    text-transform: capitalize;
+}
+
+.img {
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+    filter: brightness(0.6);
+    margin-top: 50px;
+}
+
+.home-content {
+    margin-top: 90px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.primary {
+    color: var(--primary-text-color);
+    text-transform: uppercase;
+}
+
+
+.text {
+    padding: 100px 100px 100px 0px;
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.heading {
+    font-size: 80px;
+    letter-spacing: 10px;
+}
+
+.para {
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+.img-2 {
+    width: 800px;
+    object-fit: cover;
+    filter: brightness(0.6);
+    margin-top: 50px;
+}
+
+.text-2 {
+    padding: 100px 100px 100px 0px;
+    margin-left: 30px;
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.heading-2 {
+    font-size: 60px;
+}
+
+.vertical-text {
+    writing-mode: vertical-rl;
+}
+
+.about-text {
+    padding: 0px 120px 120px 120px;
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.products-number {
+    align-items: center !important;
+}
+
+.products-count {
+    /* color: red; */
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+ .btn-submit{
+    background-color: aquamarine;
+    font-weight: bold;
+    color: black;
+    width: 100px;
+    
+ }
+
+ .btn-submit:hover{
+    transition: 0.3s;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    
+    
+ }
+
+
+@keyframes example {
+    0% {
+        /* color: ; */
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        /* color: yellow; */
+        left: 20px;
+        top: 0px;
+    }
+
+    50% {
+        /* color: blue; */
+        left: 20px;
+        top: 20px;
+    }
+
+    75% {
+        /* color: green; */
+        left: 0px;
+        top: 20px;
+    }
+
+    100% {
+        /* color: red; */
+        left: 0px;
+        top: 0px;
+    }
+}
+
+
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+@media (max-width: 1385px) {
+    .text {
+        margin-left: 50px;
+
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .about-text {
+        padding: 0px;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .img {
+        width: 500px;
+    }
+
+    .img-2 {
+        width: 500px;
+    }
+
+    .heading-2 {
+        font-size: 40px;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .img {
+        width: 400px;
+    }
+}
+
+@media (max-width: 992px) {
+    .img {
+        width: 400px;
+    }
+
+    .heading {
+        font-size: 60px;
+        font-weight: bold;
+    }
+
+    .img-2 {
+        width: 500px;
+    }
+
+    .text-2 {
+        padding: 0px;
+        margin-top: 65px;
+    }
+
+}
+
+
+
+@media (max-width: 860px) {
+    .img {
+        width: 85%;
+        position: absolute;
+        filter: brightness(0.3);
+
+    }
+
+    .img-2 {
+        display: none !important;
+    }
+
+    .text-2 {
+        margin-left: 0px;
+    }
+
+    .text {
+        position: relative;
+        margin-top: 100px;
+
+    }
+
+
+    .heading {
+        font-size: 80px;
+    }
+
+    .content {
+        grid-template-columns: 1fr;
+
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    .img {
+
+        width: 90%;
+    }
+
+    .about-text {
+        padding: 0px 50px 50px 50px;
+    }
+
+}
+
+
+
+
+@media (max-width: 483px) {
+    .heading {
+        font-size: 60px;
+    }
+
+    .img {
+        display: block !important;
+        position: absolute;
+        filter: brightness(0.4);
+        /* width: 100% !important; */
+        width: 95%;
+    }
+
+    .text {
+        margin: auto;
+        position: relative;
+        margin-left: 30px;
+        margin-top: 100px;
+    }
+
+}
+
+@media (max-width: 415px) {
+    .about-text {
+        padding: 0px 10px 10px 10px;
+    }
+
+}
+
+@media (max-width: 397px) {
+    .text {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 360px) {
+    .heading {
+        font-size: 40px;
+    }
+}
