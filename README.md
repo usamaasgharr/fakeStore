@@ -1,3 +1,7 @@
+
+![fakeStore](https://github.com/usamaasgharr/fakeStore/assets/118630986/8b8228e4-f86b-4c09-b8af-23e3a1cdef8b)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
