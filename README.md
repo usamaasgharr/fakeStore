@@ -1,6 +1,9 @@
 
-![fakeStore](https://github.com/usamaasgharr/fakeStore/assets/118630986/8b8228e4-f86b-4c09-b8af-23e3a1cdef8b)
 
+
+![laptop](https://github.com/usamaasgharr/fakeStore/assets/118630986/3fb9bb7c-05b4-4357-9ff6-795b1d16699a)
+
+<h1><a href = "https://fakestore-123.netlify.app/" alt= "url" target = '_blank' style = "justify-content : center;">Live Demo</a></h1>
 
 # Getting Started with Create React App
 
